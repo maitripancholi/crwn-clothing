@@ -55,6 +55,8 @@ class SignIn extends React.Component{
                         handleChange={this.handleChange} 
                         label='Password'
                         required 
+                        //autoComplete="off"
+                        //another in signup compo
                     />
                     
                     <div className='buttons'>
